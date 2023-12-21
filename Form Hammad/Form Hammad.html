@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Hammad</title>
+    <link rel="stylesheet" href="Form Hammad .css"  type="text/css">
+</head>
+<body>
+    <form>
+        <fieldset>
+             <legend> My Form</legend>
+             <label>Name:</label>
+             <input type="text" placeholder="Enter Your Name" autocomplete="on">
+             <br><br>
+             <label>Fater Name:</label>
+             <input type="text" placeholder="Enter Your Name" autocomplete="on">
+             <br><br>
+             <label>E-mail:</label>
+             <input type="email" placeholder="Enter Your Name" autocomplete="on">
+             <br><br>
+             <label>Gender:</label>
+             <label for="">Male</label>
+             <input type="radio" name="gender">
+             <label for="">Female</label>
+             <input type="radio" name="gender">
+             <br><br>
+             <label for="">Hobbies:</label>
+             <label for="">Reading</label>
+             <input type="checkbox">
+             <label for="">Writing</label>
+             <input type="checkbox">
+             <label for="">singing</label>
+             <input type="checkbox">
+             <label for="">Gaming</label>
+             <input type="checkbox">
+             <br><br>
+             <label for="">Country</label>
+             <input list="Countries">
+             <datalist id="Countries">
+                <option>Pakistan</option>
+                <option>India</option>
+                <option>China</option>
+                <option>Japan</option>
+             </datalist>
+             <br><br>
+             <label for="">Comment:</label>
+             <textarea cols="30" rows="10" placeholder="Enter Your Comment"></textarea>
+             <br><br>
+             <input id="Submit" type="submit" onclick="alert('Your Form Has Been Submitted')"> 
+
+             
+
+        </fieldset>
+    </form>
+</body>
+</html>
